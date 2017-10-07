@@ -4,10 +4,6 @@
 
 
 
-
-
-
-
 //Create menu link
 
 function ffl_options_menu_link(){
@@ -21,14 +17,14 @@ function ffl_options_menu_link(){
        );
 }
 
+
+
 //create options page content
 
 function ffl_options_content(){
 
     //init options global
     global $ffl_options;
-
-
 
     //ob_start — Turn on output buffering
     //exit php
@@ -48,10 +44,8 @@ function ffl_options_content(){
                 <tbody>
                 <tr>
                     <th scope = "row"><label for="ffl_settings[enable]"> <?php _e('Enable','ffl_domain') ?> </label></th>
-
                    <!--For use in checkbox and radio button form fields. Compares two given values (for example, a saved option vs. one chosen in a form) and, if the values are the same, adds the checked attribute to the current radio button or checkbox-->
-
-                    <td><input name="ffl_settings[enable]" type="checkbox" id="'ffl_settings[enable]" value="1"><?php checked(1,$ffl_options['enable'])?></td>
+                    <td><input name="ffl_settings[enable]" type="checkbox" id="'ffl_settings[enable]" value="1" <?php checked(1,$ffl_options['enable'])?>></td>
                 </tr>
 
                 <tr>
@@ -59,7 +53,9 @@ function ffl_options_content(){
 
                    <!--For use in checkbox and radio button form fields. Compares two given values (for example, a saved option vs. one chosen in a form) and, if the values are the same, adds the checked attribute to the current radio button or checkbox-->
 
-                    <td><input name="ffl_settings[facebook_url]" type="text" id="'ffl_settings[facebook_url]" value = "<?php echo $ffl_options['facebook_url'];?>" class="regular-text" >
+                    <td><input name="ffl_settings[facebook_url]" type="text" id="ffl_settings[facebook_url]" value = "<?php echo $ffl_options['facebook_url'];?>" class="regular-text" >
+
+                        <?php echo $ffl_options['facebook_url']?>
                     <p class="description"><?php _e('Enter your facebook Profile URL','ffl_domain')?></p>
                     </td>
                 </tr>
@@ -70,7 +66,7 @@ function ffl_options_content(){
 
                    <!--For use in checkbox and radio button form fields. Compares two given values (for example, a saved option vs. one chosen in a form) and, if the values are the same, adds the checked attribute to the current radio button or checkbox-->
 
-                    <td><input name="ffl_settings[facebook_url]" type="text" id="'ffl_settings[facebook_url]" value = "<?php echo $ffl_options['facebook_url'];?>" class="regular-text" >
+                    <td><input name="ffl_settings[link_color]" type="text" id="'ffl_settings[link_color]" value = "<?php echo $ffl_options['link_color'];?>" class="regular-text" >
                     <p class="description"><?php _e('Enter a color or HEX value with # sign ','ffl_domain')?></p>
                     </td>
                 </tr>
@@ -81,7 +77,7 @@ function ffl_options_content(){
 
                     <!--For use in checkbox and radio button form fields. Compares two given values (for example, a saved option vs. one chosen in a form) and, if the values are the same, adds the checked attribute to the current radio button or checkbox-->
 
-                    <td><input name="ffl_settings[show_in_feed]" type="checkbox" id="'ffl_settings[show_in_feed]" value="1"><?php checked(1,$ffl_options['show_in_feed'])?></td>
+                    <td><input name="ffl_settings[show_in_feed]" type="checkbox" id="'ffl_settings[show_in_feed]" value="1" <?php checked(1,$ffl_options['show_in_feed'])?>></td>
                 </tr>
 
 
@@ -111,4 +107,4 @@ function ffl_register_settings(){
     register_setting('ffl_settings_group','ffl_settings');
 }
 
-add_action('admin-init','ffl_register_settings');
+add_action('init','ffl_register_settings');

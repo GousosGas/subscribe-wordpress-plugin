@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="295a2733-6c11-4056-ae78-33b242de8c7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-settings.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-cli.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/facebook-footer-link.php" afterPath="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/facebook-footer-link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-content.php" afterPath="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-settings.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +36,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="facebook-footer-link.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="facebook-footer-link.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/facebook-footer-link.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="452">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#6#202#0#PHP" expanded="true" />
               </folding>
@@ -28,12 +48,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facebook-footer-link-settings.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="facebook-footer-link-settings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="356">
+              <caret line="68" column="151" lean-forward="false" selection-start-line="68" selection-start-column="151" selection-end-line="68" selection-end-column="151" />
+              <folding>
+                <marker date="1507402621462" expanded="true" signature="2449:2482" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,9 +93,15 @@
       <file leaf-file-name="facebook-footer-link-content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <marker date="1507403149160" expanded="true" signature="251:257" ph="..." />
+                <marker date="1507403149160" expanded="true" signature="251:259" ph="..." />
+                <marker date="1507403149160" expanded="true" signature="251:286" ph="..." />
+                <marker date="1507403149160" expanded="true" signature="251:289" ph="..." />
+                <marker date="1507403149160" expanded="true" signature="251:295" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +119,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ffl_settings_group</find>
+      <find>ffl_settings</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,9 +132,9 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-scripts.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-content.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/facebook-footer-link.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-settings.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-content.php" />
       </list>
     </option>
   </component>
@@ -150,6 +179,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,12 +385,12 @@
       <updated>1506979307695</updated>
       <workItem from="1506979309018" duration="437000" />
       <workItem from="1506979783651" duration="3698000" />
-      <workItem from="1507379759112" duration="12508000" />
+      <workItem from="1507379759112" duration="17434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16643000" />
+    <option name="totallyTimeSpent" value="21569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
@@ -361,7 +404,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33296338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -420,6 +463,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="68" column="151" lean-forward="false" selection-start-line="68" selection-start-column="151" selection-end-line="68" selection-end-column="151" />
+          <folding>
+            <marker date="1507402621462" expanded="true" signature="2449:2482" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1507403149160" expanded="true" signature="251:257" ph="..." />
+            <marker date="1507403149160" expanded="true" signature="251:259" ph="..." />
+            <marker date="1507403149160" expanded="true" signature="251:286" ph="..." />
+            <marker date="1507403149160" expanded="true" signature="251:289" ph="..." />
+            <marker date="1507403149160" expanded="true" signature="251:295" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-scripts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -431,26 +498,10 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/facebook-footer-link.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#6#202#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/facebook-footer-link/includes/facebook-footer-link-settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
