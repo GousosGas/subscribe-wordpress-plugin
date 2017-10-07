@@ -25,5 +25,17 @@ if(!defined("ABSPATH")){
  */
 
 
+//Global Options VAriables
+
+$ffl_options = get_option('ffl_settings');
+
+
 require_once (plugin_dir_path(__FILE__).'/includes/facebook-footer-link-scripts.php');
 require_once (plugin_dir_path(__FILE__).'/includes/facebook-footer-link-content.php');
+
+//only in admin panel the settings
+if(is_admin()){
+    //Load script
+    require_once (plugin_dir_path(__FILE__).'/includes/facebook-footer-link-settings.php');
+}
+
